@@ -584,7 +584,7 @@ table.patientTreatmentPrograms td {
 		font-size: 1.03em;
 	}
 
-.retired, .voided, .retired *, .voided * {
+.retired, .voided, .retired *, .voided *, a.retired {
 	text-decoration: line-through;
 }
 
@@ -1057,6 +1057,8 @@ table#obs td.obsValue {
 	
 	.listItemSelectAll { 
 		background-color: #EFEFEF;
+		float: none;
+		margin: 5px 0 0;
 	}
 	
 .instructions {
